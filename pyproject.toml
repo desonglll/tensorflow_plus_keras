@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "tensorflow-plus-keras"
+version = "0.1.0"
+description = ""
+authors = ["mikeshinoda <53910940+desonglll@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+jupyter = "^1.1.1"
+tensorflow = "^2.17.0"
+pandas = "^2.2.2"
+keras = "^3.5.0"
+matplotlib = "^3.9.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
